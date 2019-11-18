@@ -25,6 +25,10 @@ body {
   padding:          15px;
   margin:           0px 10px 10px 10px; 
   width: 280px;
+
+  position: absolute;
+  top: 133px;
+  right: 0px;
   float: right;
 }
 
@@ -67,4 +71,5 @@ a:visited {
   padding-bottom: 5px;
   background-color: #675c47;
   margin :0 auto;
+  position: relative;
 }

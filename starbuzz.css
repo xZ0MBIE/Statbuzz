@@ -7,20 +7,11 @@ body {
 
 #header {
   background-color: #675c47;
-  /* margin:           10px; */
   margin :10px 10px 10px 10px;
   height:           108px;
 }
-#headerLogo {
-  background-color: #675c47;
-  margin:          D 10px;
-  height:           108px;
-  float: left;
-}
+
 #headerSlogan {
-  background-color: #675c47;
-  margin:           10px;
-  height:           108px;
   float: right;
 }
 
@@ -30,7 +21,6 @@ body {
   font-size:        105%;
   padding:          15px;
   vertical-align:   top;
-
 }
 
 #sidebar {
@@ -48,7 +38,6 @@ body {
   padding:          15px;
   margin:            0px 10px 10px 10px;
   font-size:        90%;
-  clear: left;
   
 }
 
@@ -75,7 +64,7 @@ a:visited {
   border-bottom:    thin dotted #675c47;
 }
 .allcontent{
-  width: 800px;
+  /* width: 800px; */
   padding-top: 5px;
   padding-bottom: 5px;
   background-color: #675c47;
@@ -100,12 +89,10 @@ a:visited {
   position: absolute;
   top: 45px;
   left:365px;
-  z-index: 3;
 }
 #coupon {
   position: fixed;
   top: 350px;
-  position: fixed;
   left: -200px;
 }
 #coupon a , img  {
